@@ -6,7 +6,7 @@ libecho_la_SOURCES = src/echo.c
 libecho_la_LDFLAGS = -version-info 0:0:0
 
 bin_PROGRAMS = hello
-hello_SOURCES = src/hello.c src/include/echo.h
+hello_SOURCES = src/hello.c include/echo.h
 hello_LDADD = libecho.la
 hello_CPPFLAGS = $(AM_CPPFLAGS)
 
