@@ -1,4 +1,4 @@
-AUTOMAKE_OPTIONS = subdir-objects
+AUTOMAKE_OPTIONS = subdir-objects foreign
 AM_CPPFLAGS = -I$(src_topdir)../include
 
 lib_LTLIBRARIES = libecho.la
