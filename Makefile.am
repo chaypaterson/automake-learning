@@ -9,10 +9,3 @@ bin_PROGRAMS = hello
 hello_SOURCES = src/hello.c include/echo.h
 hello_LDADD = libecho.la
 hello_CPPFLAGS = $(AM_CPPFLAGS)
-
-clean-local:
-	@rm config.status configure config.log
-	@rm Makefile
-	@rm -r autom4te.cache/
-	@rm aclocal.m4
-	@rm compile install-sh missing Makefile.in
