@@ -17,4 +17,4 @@ Steps:
 This will result in a tarball that contains the project.
 
 Dependencies:
-    * GNU Autotools
+* GNU Autotools
