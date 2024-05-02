@@ -9,13 +9,10 @@ The Makefile.am is non-recursive.
 
 Steps:
 
-    * Run `autoreconf --install` to generate a `configure` script.
-
-    * `mkdir build && cd build`
-
-    * `../configure`
-
-    * `make && make dist`
+* Run `autoreconf --install` to generate a `configure` script.
+* `mkdir build && cd build`
+* `../configure`
+* `make && make dist`
 
 This will result in a tarball that contains the project.
 
